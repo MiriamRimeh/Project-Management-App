@@ -3,7 +3,7 @@ html, body {
     margin: 0;
   }
   
-  .app-footer {
+footer {
     background-color: #253858;
     color: #fff;
     text-align: center;
@@ -11,4 +11,9 @@ html, body {
     position: absolute;
     bottom: 0;
     width: 100%;
+    max-width: 100%; /* Ensure it doesn't exceed the viewport width */
+    overflow-x: hidden;
+    overflow-y: hidden;
+    box-sizing: border-box; /* Include padding and border in the width calculation */
+
   }

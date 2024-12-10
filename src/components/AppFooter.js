@@ -3,7 +3,7 @@ import '../style/AppFooter.css'
 
 function AppFooter() {
   return (
-    <footer className="app-footer">
+    <footer>
       <p>&copy; 2024 UNWE Code</p>
     </footer>
   );

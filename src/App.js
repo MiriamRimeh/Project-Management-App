@@ -9,7 +9,7 @@ import UserProfile from './pages/UserProfile';
 import Projects from './pages/Projects';
 import AppFooter from './components/AppFooter';
 import LogIn from './components/LogIn';
-//import Tasks from './pages/Tasks'
+import Tasks from './pages/Tasks'
 
 function App() {
   /* const [isLoggedIn, setIsLoggedIn] = useState(false);
@@ -31,7 +31,8 @@ function App() {
       <Routes>
         <Route path="/" element={<Home/>}/>
         <Route path='/login' element={<LogIn></LogIn>}></Route>
-        <Route path='/projects' element={<Projects></Projects>}></Route>        
+        <Route path='/projects' element={<Projects></Projects>}></Route>
+        <Route path='/tasks' element={<Tasks></Tasks>}></Route>        
         <Route path='/settings' element={<Settings></Settings>}></Route>
         <Route path='/contacts' element={<Contacts></Contacts>}></Route>
         <Route path='/userProfile' element={<UserProfile></UserProfile>}></Route>

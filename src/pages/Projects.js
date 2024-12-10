@@ -17,7 +17,7 @@ import {
 import {RemoveCircleOutline, DriveFileRenameOutline} from '@mui/icons-material';
 import { projects } from '../test-data/ProjectsTableData';
 
-const Example = () => {
+const Projects = () => {
   const [createModalOpen, setCreateModalOpen] = useState(false);
   const [tableData, setTableData] = useState(() => projects);
   const [validationErrors, setValidationErrors] = useState({});
@@ -231,4 +231,4 @@ export const CreateNewAccountModal = ({ open, columns, onClose, onSubmit }) => {
 };
 
 const validateRequired = (value) => !!value.length;
-export default Example;
+export default Projects;
