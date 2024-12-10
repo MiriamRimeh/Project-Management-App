@@ -1,0 +1,14 @@
+html, body {
+    height: 100%;
+    margin: 0;
+  }
+  
+  .app-footer {
+    background-color: #253858;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }

@@ -1,0 +1,23 @@
+.create-button {
+    position: absolute;
+    left: 20px;
+    top: 20px; /* Adjust top position as needed */
+    background-color: #0052cc;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  
+    &:hover {
+      background-color: transparent;
+      border: 2px solid #0052cc;
+      color: #0052cc;
+    }
+  }
+
+  .table-container {
+    border-radius:10px; /* Optional rounded corners */
+    box-shadow: 0 0px 0px rgba(0, 0, 0, 0); /* Optional subtle shadow */
+    overflow-x: auto; /* Enable horizontal scrolling if needed */
+  } 
